@@ -17,9 +17,9 @@ O projeto é um layout de uma tela de login com e-mail, senha, esqueci a senha e
 
  *Para este projeto eu aprendi como estilizar formulários com bootstrap, criar uma navbar simples e mostrar a senha que está sendo digitada ao passar o mouse no ícone do olho.*
 
-### 📷 Screenshot do site:
+### 📷 GIF do site:
 
-![](screenshots/1.png)
+![](screenshots/1.gif)
 ________
 
 <h4 align="center">
