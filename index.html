@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Faça seu login</title>
+  </head>
+
+    <body class="bg-primary text-center">
+      <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm bg-primary sticky-top">
+          <!-- Logo -->
+            <a href="" class="navbar-brand h1">Slim.mb</a>
+              <div class="navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Voltar para Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Cadastre-se</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+      
+        <div class="bg-white p-4 border" style="margin: 6% auto;">
+          <h5 class="lead text-center pb-4">
+            Faça seu login
+          </h5>
+
+          <form>
+            <!-- Login -->
+              <div class="form-group pb-2">
+                <label for="email" class="sr-only">E-mail</label>
+                  <input class="form-control" type="email" id="email" placeholder="Digite seu email" required autofocus>
+              </div>
+
+              <div class="form-group">
+                <label for="password">
+                  <small class="form-text"> <a href="#">Esqueceu a senha?</a></small>
+                </label>
+                <input id="password" placeholder="Digite sua senha" type="password" class="form-control" name="password" required>
+                  <svg id="show_password" name="show_password" class="bi bi-eye" aria-hidden="true"width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.134 13.134 0 0 0 1.66 2.043C4.12 11.332 5.88 12.5 8 12.5c2.12 0 3.879-1.168 5.168-2.457A13.134 13.134 0 0 0 14.828 8a13.133 13.133 0 0 0-1.66-2.043C11.879 4.668 10.119 3.5 8 3.5c-2.12 0-3.879 1.168-5.168 2.457A13.133 13.133 0 0 0 1.172 8z"/>
+                    <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                  </svg>          
+              </div>
+
+              <div class="checkbox mb-3">
+                <label>
+                  <input class="mr-2" type="checkbox" value="remember-me">Lembrar de mim
+                </label>
+              </div>
+
+              <input class="btn btn-block btn-outline-primary mb-3" type="submit" value="Entrar">
+          </form>
+          
+              <span>Ainda não é registrado? </span><a class="text-primary" href="#">Cadastre-se</a>
+        </div>   
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/login.js"></script>
+  </body>
+</html>

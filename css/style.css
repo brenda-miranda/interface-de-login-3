@@ -1,0 +1,42 @@
+/*
+* Navbar
+*/
+.nav-link, .navbar-brand {
+  color: #fff;
+}
+
+/*
+* Border container
+*/
+.border {
+  border-radius: 15px;
+  width: 30%;
+}
+
+/*
+* Input
+*/
+.form-control {
+  border: none;
+  border-bottom: 1px dotted rgb(168, 167, 167);
+}
+
+.form-control:focus {
+  border-bottom: 1px solid #4196f1 !important;
+  box-shadow: none;
+}
+
+/*
+* Forgot password
+*/
+.form-text {
+  margin-left: 240px;
+}
+
+/*
+* Eye icon
+*/
+.bi-eye {
+  margin-top: -60px;
+  margin-left: 330px;
+}
